@@ -130,3 +130,5 @@ for metric_key, metric_label in metrics.items():
         fname = f"{OUT_DIR}/{metric_key}_vs_pca_median.png"
         plt.savefig(fname, dpi=150)
         print(f"Saved {fname}")
+    else:
+        plt.show()
